@@ -1,4 +1,3 @@
-import React, {useState} from 'react';
 import { HeroContainer, HeroContent, HeroItem, HeroH1, HeroP, HeroBtn } from './HeroElements';
 
 
