@@ -1,6 +1,5 @@
 import { HeroContainer, HeroContent, HeroItem, HeroH1, HeroP, HeroBtn } from './HeroElements';
-
-
+import React from 'react';
 
 
 const Hero  = () => {

@@ -1,6 +1,7 @@
 import styled from "styled-components";
 import { NavLink as Link } from 'react-router-dom';
 import { FaPizzaSlice } from 'react-icons/fa';
+import { FaUserAlt } from 'react-icons/fa';
 import background from '../../images/6.2.jpg'; 
 
  export const Nav = styled.nav`
@@ -14,6 +15,13 @@ import background from '../../images/6.2.jpg';
   display: flex;
   // justify-content: center;
   // font-weight:700;
+
+  &:hover{
+    transition: 0.2s ease-out;
+    cursor: pointer;
+    color: black; 
+}
+  
 `;
 
 export const NavLink = styled(Link)`
@@ -28,10 +36,17 @@ export const NavLink = styled(Link)`
   margin-left: 50px;
   margin-top:14px;
 
-  @media screen and (max-width: 400px) {
-    position: absolute;
-    top: 10px;
-    left: 25px;
+  // @media screen and (max-width: 400px) {
+  //   position: absolute;
+  //   top: 10px;
+  //   left: 25px;
+
+    &:hover{
+      // background: #ffc500;
+      transition: 0.2s ease-out;
+      cursor: pointer;
+      color: #ffc500; 
+  }
 `;
 
 export const NavIcon = styled.div`
@@ -46,9 +61,24 @@ export const NavIcon = styled.div`
     transform: translate(-175%, 100%);
     font-weight: bold;
   }
+
+  &:hover{
+    // background: #ffc500;
+    transition: 0.2s ease-out;
+    cursor: pointer;
+    color: #ffc500; 
+}
 `;
 
 export const Bars = styled(FaPizzaSlice)`
 font-size: 2rem;
 transform: translate(-50%, -15%);
+`;
+
+export const UserIcon = styled(FaUserAlt)`
+font-size: 2rem;
+transform: translate(-50%, -15%);
+margin-top: 15px;
+margin-left: 25px;
+color: white;
 `;

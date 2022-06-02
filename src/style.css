@@ -1,19 +1,21 @@
 body{
-   background: rgba(12, 12, 12, 0.9);
+   background: #150f0f;
 }
 .about1{
    color: #ffffff;
    margin-top: 0;
    text-align: center;
-   height: 400px;
+   height: 650px;
    margin-top: 50px;
    margin-left: 40px;
-   width: 700px;
+   width: 720px;
+   /* border: solid white; */
+   padding: 20px;
 }
 
 
 .about2{
-   height: 500px;
+   height: 510px;
    width: 600px;
    margin-top: -500px;
    margin-left: 800px;
@@ -21,6 +23,7 @@ body{
    background-position: center;
    background-size: cover;
    border: solid white;
+   margin-bottom: 400px;
 }
 .about1 p{
    font-size: 18px;
@@ -35,5 +38,232 @@ body{
    left: 50%;
    margin-top: -50px;
    margin-left: -50px;
+}
+
+.signIn-form{
+   width: 100%;
+   max-width: 350px;
+   padding: 20px;
+   margin: auto;
+   height: 100%;
+}
+.signIn-form h1{
+   text-align: center;
+   margin-bottom: 20px;
+   margin-top: 20px;
+   color: white;
+}
+
+.signIn-form label{
+   margin-bottom: 0px;
+   margin-top: 8px;
+   color: white;
+}
+.signIn-form input{
+   margin-top: 20px;
+   width: 100%;
+   padding: 10px;
+   margin-bottom: 20px;
 
 }
+.signIn-form button{
+   margin-top: 20px;
+   width: 100%;
+   padding: 6px;
+   margin-top: 20px;
+   background-color: blueviolet;
+   color: white;
+   font-weight: 500;
+   font-size: 20px;
+}
+.SignInGoogleBtn{
+   width: 100%;
+   /* padding: 15px; */
+   margin-top: 20px;
+   font-size: 28px;
+   margin-bottom: 20px;
+   border-radius: 2px;
+}
+
+
+.signInContainer{
+   background: rgba(12, 12, 12, 0.9);
+   width: 30%;
+   height: 675px;
+   margin-left: 35%;
+   /* margin-top: 20px; */
+   opacity: 0.9;
+}
+.txt-in-signIn{
+   color: white;
+   margin-left: 25px;
+   margin-top: 30px;
+   margin-bottom: 8px;
+}
+
+.SignIn2{
+  background-image: url('./images/5.jpg'); 
+  background-position: center;
+  background-size: cover;
+}
+.signIn-form a:link{
+
+   color: white;
+}
+.signIn-form a:visited{
+   color: white;
+}
+.text-center{
+   color: white;
+   margin-left: 130px;
+   margin-top: 8px;
+}
+
+.contact1{
+   height: 550px;
+   width: 100%;
+   background-image: url('./images/2222.png');
+   background-position: center;
+   background-size: cover;
+
+}
+.contact2{
+   color: white;
+   margin-top: 50px;
+   text-align: center;
+}
+.contact3{
+   width: 230px;
+   height: 80px;
+   text-align: left;
+   margin-left: 420px;
+   margin-top: 50px;
+   
+}
+.contact4{
+   width: 230px;
+   height: 80px;
+   text-align: left;
+   margin-left: 690px;
+   margin-top: -80px;
+}
+
+.contact5{
+   width: 230px;
+   height: 80px;
+   text-align: left;
+   margin-left: 880px;
+   margin-top: -80px;
+}
+.contact6{
+   margin-top: 50px;
+   margin-bottom: 50px;
+}
+
+.footer{
+   width: 100%;
+   height: 170px;
+   background-color: #0d0909;
+   color: #fff;
+  
+  /* justify-self: start;
+  cursor: pointer;
+  text-align: left;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 16px;
+  font-weight: bold; */
+ 
+}
+/* .footer a{
+   text-decoration: none;
+} */
+
+.footerCate{
+   width: 180px;
+   height: 150px;
+   margin-left: 500px;
+   margin-top: -222px;
+}
+.footerCate a{
+   text-decoration: none;
+   color: white;
+   font-size: 18px;
+   font-weight: 500;
+   margin-top: 20px;
+   margin-bottom: 20px;
+   padding-left: 30px ;
+
+}
+ .footerCate a:hover{
+    color: #ffc500;
+ }
+
+ .footerImg{
+    width:  230px;
+    height: 250px;
+    margin-left: 750px;
+    margin-top: -150px;
+ }
+
+ .footerImg h2{
+    margin-bottom: 30px;
+    /* text-align: center; */
+    padding-left: 20px;
+ }
+ .ft{
+    margin-top: 15px;
+    margin-bottom: 15px;
+ }
+ .ft p{
+    margin-top: 5px;
+    margin-bottom: 5px;
+ }
+ .ft4{
+    margin-left: 1030px;
+    margin-top: -150px;
+ }
+ .ft4 p{
+   font-size: 22px;
+   font-weight: 500;
+ }
+
+ .copyR1{
+    margin-left: 683px;
+    margin-top: 100px;
+    /* height: 100%; */
+ }
+ .homeyoutube1{
+   background: #150f0f;
+   width: 100%;
+   height: 100%;
+   margin-bottom: 50px;
+   
+ }
+
+ .homeyoutube1 h1{
+    text-align: center;
+    color: white;
+    margin-bottom: 50px;
+ }
+
+ .homeyoutube2{
+    align-items: center;
+    margin-left: 30%;
+    width: 100%;
+    /* margin-top: 50px;
+    margin-bottom: 50px; */
+    /* background-color: #0d0909; */
+ }
+
+ .navTopic{
+    margin-top: 12px;
+    margin-left: 120px;
+   /* text-align: right; */
+   color: white;
+ }
+ .navTopic h1{
+   font-family:  'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   font-size: 32px;
+ }

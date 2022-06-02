@@ -42,6 +42,7 @@ export const SocialLogo = styled(Link)`
   align-items: center;
   margin-bottom: 16px;
   font-weight: bold;
+  text-decoration: none;
 `;
 
 export const SocialIcons = styled.div`
@@ -54,4 +55,23 @@ display: flex;
 export const SocialIconLink = styled.a`
   color: #fff;
   font-size: 24px;
+`;
+
+export const FtLink = styled(Link)`
+  color: #fff;
+  // background-color: #0d0909;
+  // justify-self: start;
+  // cursor: pointer;
+  // text-align: left;
+  font-size: 18px;
+  display: flex;
+  // align-items: center;
+  margin-bottom: 16px;
+  font-weight: bold;
+  text-decoration: none;
+  margin-left: 210px;
+
+  &:hover{
+    color: #ffc500;
+  }
 `;

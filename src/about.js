@@ -1,10 +1,12 @@
 import React from 'react'
+import Footer from './components/Footer';
 import './style.css';
 
 function About (){
 
    return(
       <div>
+      <div className="aboutContainer">
       <div className="about1">
 
            <h1>Who we are?</h1>
@@ -13,11 +15,12 @@ function About (){
 <br/>
            <p>Dining options are many with the verandah overlooking the beautiful garden offering al fresco dining under the impressive marquee; or dine upstairs in one of the 4 Private dining rooms, or the balcony. Alternatively, the menu is an ode to all that is fresh, delicious and wonderful about Italian food, including Homemade Pasta , wood-fired Pizza selection and also gluten free dishes mindful of our guests preferences. The Bayleaf’s Executive Chef, Saroj, brings in over 20 years of experience working in international chains of Italian restaurants to provide that homely authentic Italian flavours in the menu. It also offers a Delivery and Take away menu to enjoy fine Italian food in the convenience of your home.</p>
 
-           <div className="about2">
-              
-           </div>
+           <div className="about2"></div>
       </div>
       </div>
+   <Footer />
+      </div>
+      
    )
 }
 

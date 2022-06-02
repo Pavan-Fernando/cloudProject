@@ -7,6 +7,9 @@ import { useState } from 'react';
 import Home from './Home';
 import About from './about';
 import Signin from './signin';
+import Contact from './contact';
+import Youtube from './youtube';
+
 
 
 function App() {
@@ -30,12 +33,13 @@ function App() {
               <About />
             </Route>
             <Route exact path="/contact">
-              <About />
+              <Contact />
             </Route>
             <Route exact path="/signin">
               <Signin />
             </Route>
         </Switch>
+        {/* <Youtube videoId='Hg5zM6-UbgU' /> */}
     </Router> 
 
     
